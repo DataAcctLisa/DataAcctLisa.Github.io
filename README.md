@@ -1,63 +1,9 @@
 # DataAcctLisa.Github.io
-Lisa Diamond Data Analyst Websitepackage errordemo;
-import java.util.Scanner;
+Lisa Diamond Data Analyst Website
 
-public class ErrorDemo{
-    public static void main(String[] args) {
-        
-        int num, deno;
-        
-        Scanner input = new Scanner(System.in);
-        
-        try
-        {
-            System.out.print("Please enter the numerator: ");
-            num = input.nextInt();
-            
-            System.out.print("Please enter the denominator: ");
-            deno = input.nextInt();
-            
-            System.out.println("The result is " + num/deno);
-            
-        }
-        catch (Exception e)
-        {
-            System.out.println(e.getMessage());
-        }
-        finally
-        {
-            System.out.println("---- End of Error Handling Example ----");
-        }
-    }
-}
-package errordemo;
-import java.util.Scanner;
+To come
 
-public class ErrorDemo{
-    public static void main(String[] args) {
-        
-        int num, deno;
-        
-        Scanner input = new Scanner(System.in);
-        
-        try
-        {
-            System.out.print("Please enter the numerator: ");
-            num = input.nextInt();
-            
-            System.out.print("Please enter the denominator: ");
-            deno = input.nextInt();
-            
-            System.out.println("The result is " + num/deno);
-            
-        }
-        catch (Exception e)
-        {
-            System.out.println(e.getMessage());
-        }
-        finally
-        {
-            System.out.println("---- End of Error Handling Example ----");
-        }
-    }
-}
+Link to stock analysis pages
+resume link
+inventory for possible amazon seller account
+progress on data analysis account
