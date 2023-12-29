@@ -3,7 +3,10 @@
 
 import time
 
-count = 10
+number_as_string = input("Enter number of seconds you want to count down:  ")
+number_as_integer = int(number_as_string)
+
+count = number_as_integer
 
 while count > 0:
     print (count)
